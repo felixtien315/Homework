@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣夜市美食清單</title>
+    <style>
+        body {
+            font-family: 'Noto Sans TC', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(to bottom, #fff, #fff5e6); /* 夜市燈光漸層 */
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #d32f2f; /* 夜市紅色 */
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        th {
+            background: #f57c00; /* 夜市橙色 */
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+        td {
+            font-size: 0.95em;
+        }
+        tr:nth-child(even) {
+            background: #fff8e1; /* 淺黃色，模擬夜市燈光 */
+        }
+        tr:hover {
+            background: #ffe0b2;
+            transition: background 0.3s;
+        }
+        .available {
+            color: #388e3c;
+            font-weight: bold;
+        }
+        .unavailable {
+            color: #d32f2f;
+        }
+        /* 響應式設計 */
+        @media (max-width: 768px) {
+            table {
+                font-size: 0.85em;
+            }
+            th, td {
+                padding: 8px;
+            }
+            /* 隱藏次要欄位，優先顯示重要資訊 */
+            th:nth-child(6), td:nth-child(6), /* 城市 */
+            th:nth-child(7), td:nth-child(7) { /* 是否可購買 */
+                display: none;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>台灣夜市美食清單</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>美食名稱</th>
+                    <th>類別</th>
+                    <th>價格 (NT$)</th>
+                    <th>攤販</th>
+                    <th>夜市</th>
+                    <th>城市</th>
+                    <th>是否可購買</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for food in foods %}
+                <tr>
+                    <td>{{ food.name }}</td>
+                    <td>{{ food.category }}</td>
+                    <td>{{ food.price }}</td>
+                    <td>{{ food.vendor.name }}</td>
+                    <td>{{ food.vendor.night_market.name }}</td>
+                    <td>{{ food.vendor.night_market.city }}</td>
+                    <td class="{% if food.is_available %}available{% else %}unavailable{% endif %}">
+                        {{ food.is_available|yesno:"是,否" }}
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="7">無美食記錄</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

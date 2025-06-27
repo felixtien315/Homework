@@ -1,0 +1,902 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add night market",
+    "content_type": 7,
+    "codename": "add_nightmarket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change night market",
+    "content_type": 7,
+    "codename": "change_nightmarket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete night market",
+    "content_type": 7,
+    "codename": "delete_nightmarket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view night market",
+    "content_type": 7,
+    "codename": "view_nightmarket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add vendor",
+    "content_type": 8,
+    "codename": "add_vendor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change vendor",
+    "content_type": 8,
+    "codename": "change_vendor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete vendor",
+    "content_type": 8,
+    "codename": "delete_vendor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view vendor",
+    "content_type": 8,
+    "codename": "view_vendor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add food",
+    "content_type": 9,
+    "codename": "add_food"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change food",
+    "content_type": 9,
+    "codename": "change_food"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete food",
+    "content_type": 9,
+    "codename": "delete_food"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view food",
+    "content_type": 9,
+    "codename": "view_food"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$PLXcVhVWUye9Dq2id9LUAU$lWv10SEijsHp6vZ9WXPLuARDUFDtkkdmUbZqiyBX4ps=",
+    "last_login": "2025-06-25T11:41:41.051Z",
+    "is_superuser": true,
+    "username": "kalpakjian",
+    "first_name": "",
+    "last_name": "",
+    "email": "abc@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-06-25T11:40:30.454Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$0lJaOrFFvo5v8N2H8q24dh$grQTIeLFWrFFGsdW+lt7cjkFilE2t9c1tOai+JZTjuw=",
+    "last_login": "2025-06-26T02:38:20.239Z",
+    "is_superuser": true,
+    "username": "felix-tien",
+    "first_name": "",
+    "last_name": "",
+    "email": "accidental315@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-06-26T02:20:02.121Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$dUpgQai2Sjfj1aBECpIKWf$M8BYmnbEm8MtfH9vHaeGPKd9Lh8RfwcZ8gj5zvkG/Ao=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "ftien",
+    "first_name": "",
+    "last_name": "",
+    "email": "a@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-06-27T03:35:38.329Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "nightmarket",
+    "model": "nightmarket"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "nightmarket",
+    "model": "vendor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "nightmarket",
+    "model": "food"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0yjt2xpv2q31mlhgqunk6tteoarqb59l",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBgHCwu3XuGZmAGqRpISrsy3l2bdKHb_977LzXSupRx7TKPE6uzcurwu0VKD6kb4DvVW9Op1WWeot4UvdOur43ledndv4NCvXzryNkTJ0sZXQDn0SKiyXgKDJCRjaAYO-RjDoF9QgLwcQgsDNGhQ_X-AOvmN-A:1uUcML:hw0R4NufphA7rKK1ZdTCOJjwLKbU7d-KJrwnR8Dnnqo",
+    "expire_date": "2025-07-10T02:29:05.460Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bht8t9l97pe7ifd0l4f9c81r4ryd845r",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBgHCwu3XuGZmAGqRpISrsy3l2bdKHb_977LzXSupRx7TKPE6uzcurwu0VKD6kb4DvVW9Op1WWeot4UvdOur43ledndv4NCvXzryNkTJ0sZXQDn0SKiyXgKDJCRjaAYO-RjDoF9QgLwcQgsDNGhQ_X-AOvmN-A:1uUcVI:bFZMhblTeaKr8yMlKz3Dct-fkh_3YTWZ-rj3EZfgpgQ",
+    "expire_date": "2025-07-10T02:38:20.247Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t66srukwlp4eulors6zm4e5rf0xmx0pb",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBgHCwu3XuGZmAGqRpISrsy3l2bdKHb_977LzXSupRx7TKPE6uzcurwu0VKD6kb4DvVW9Op1WWeot4UvdOur43ledndv4NCvXzryNkTJ0sZXQDn0SKiyXgKDJCRjaAYO-RjDoF9QgLwcQgsDNGhQ_X-AOvmN-A:1uUcDs:cdHjsGTNPcv_MxB8xFE4Mr_WRBPNkTa_IlxBa6AEmgk",
+    "expire_date": "2025-07-10T02:20:20.564Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uppqlkd68r13g5lmhqs046fxz5xuutna",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlkyjj9LSc8ZrF2vFweQI8VJFXF3iJQC2jczb1MJ16WmtZc5jawuyqjT70aYn6XtgB_Y7pPOU1vmkfSu6IN2fZu4vK6H-3dQsddv7YyAZAnl7AJ7CxmMDyG6QgIYhQJ6EM4ELlq0HNCBM2AhGhoGD6DeH_AyN7k:1uUOVZ:atrdzWPgdcWyBu_WFaG6EeI6j4dqLnJVqwVYTsVG6iw",
+    "expire_date": "2025-07-09T11:41:41.052Z"
+  }
+},
+{
+  "model": "nightmarket.nightmarket",
+  "pk": 2,
+  "fields": {
+    "name": "士林夜市",
+    "city": "台北市",
+    "address": "台北市士林區文林路",
+    "opening_hours": "每週二至週日 16:00-01:00",
+    "is_active": true
+  }
+},
+{
+  "model": "nightmarket.nightmarket",
+  "pk": 3,
+  "fields": {
+    "name": "饒河夜市",
+    "city": "台北市",
+    "address": "台北市松山區饒河街",
+    "opening_hours": "每週一至週日 17:00-23:00",
+    "is_active": true
+  }
+},
+{
+  "model": "nightmarket.nightmarket",
+  "pk": 4,
+  "fields": {
+    "name": "逢甲夜市",
+    "city": "台中市",
+    "address": "台中市西屯區文華路",
+    "opening_hours": "每週一至週日 16:00-02:00",
+    "is_active": true
+  }
+},
+{
+  "model": "nightmarket.nightmarket",
+  "pk": 5,
+  "fields": {
+    "name": "花園夜市",
+    "city": "台南市",
+    "address": "台南市北區海安路三段",
+    "opening_hours": "每週四、六、日 17:00-23:00",
+    "is_active": true
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 2,
+  "fields": {
+    "name": "豪大大雞排",
+    "night_market": 2,
+    "owner_name": "王小明",
+    "contact_phone": "0912345678",
+    "established_date": "2010-05-01"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 3,
+  "fields": {
+    "name": "阿宗麵線",
+    "night_market": 2,
+    "owner_name": "陳美玲",
+    "contact_phone": "0923456789",
+    "established_date": "2008-03-15"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 4,
+  "fields": {
+    "name": "士林臭豆腐",
+    "night_market": 2,
+    "owner_name": "林志偉",
+    "contact_phone": "0934567890",
+    "established_date": "2015-07-20"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 5,
+  "fields": {
+    "name": "珍奶小攤",
+    "night_market": 2,
+    "owner_name": "張雅婷",
+    "contact_phone": "0945678901",
+    "established_date": "2019-01-10"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 6,
+  "fields": {
+    "name": "胡椒餅老店",
+    "night_market": 3,
+    "owner_name": "李建國",
+    "contact_phone": "0956789012",
+    "established_date": "2005-11-05"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 7,
+  "fields": {
+    "name": "蚵仔煎達人",
+    "night_market": 3,
+    "owner_name": "黃麗華",
+    "contact_phone": "0967890123",
+    "established_date": "2012-04-25"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 8,
+  "fields": {
+    "name": "饒河烤魷魚",
+    "night_market": 3,
+    "owner_name": "吳俊傑",
+    "contact_phone": "0978901234",
+    "established_date": "2017-09-30"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 9,
+  "fields": {
+    "name": "水果冰店",
+    "night_market": 3,
+    "owner_name": "蔡宜靜",
+    "contact_phone": "0989012345",
+    "established_date": "2020-06-15"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 10,
+  "fields": {
+    "name": "逢甲雞爪凍",
+    "night_market": 4,
+    "owner_name": "劉家豪",
+    "contact_phone": "0990123456",
+    "established_date": "2014-02-18"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 11,
+  "fields": {
+    "name": "大腸包小腸",
+    "night_market": 4,
+    "owner_name": "許志宏",
+    "contact_phone": "0901234567",
+    "established_date": "2011-08-12"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 12,
+  "fields": {
+    "name": "逢甲滷味",
+    "night_market": 4,
+    "owner_name": "鄭怡君",
+    "contact_phone": "0912345670",
+    "established_date": "2016-12-01"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 13,
+  "fields": {
+    "name": "奶茶工坊",
+    "night_market": 4,
+    "owner_name": "林佩珊",
+    "contact_phone": "0923456781",
+    "established_date": "2018-05-05"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 14,
+  "fields": {
+    "name": "花園鹹酥雞",
+    "night_market": 5,
+    "owner_name": "陳冠宇",
+    "contact_phone": "0934567892",
+    "established_date": "2013-10-10"
+  }
+},
+{
+  "model": "nightmarket.vendor",
+  "pk": 15,
+  "fields": {
+    "name": "台南虱目魚湯",
+    "night_market": 5,
+    "owner_name": "吳曉雯",
+    "contact_phone": "0945678903",
+    "established_date": "2009-07-15"
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 2,
+  "fields": {
+    "name": "香酥雞排",
+    "vendor": 2,
+    "price": "70.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 3,
+  "fields": {
+    "name": "麻辣雞排",
+    "vendor": 2,
+    "price": "75.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 4,
+  "fields": {
+    "name": "西多士",
+    "vendor": 2,
+    "price": "50.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 5,
+  "fields": {
+    "name": "麵線糊",
+    "vendor": 3,
+    "price": "55.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 6,
+  "fields": {
+    "name": "大腸麵線",
+    "vendor": 3,
+    "price": "60.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 7,
+  "fields": {
+    "name": "炸臭豆腐",
+    "vendor": 4,
+    "price": "50.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 8,
+  "fields": {
+    "name": "脆皮臭豆腐",
+    "vendor": 4,
+    "price": "60.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 9,
+  "fields": {
+    "name": "珍珠奶茶",
+    "vendor": 5,
+    "price": "50.00",
+    "category": "飲料",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 10,
+  "fields": {
+    "name": "冬瓜茶",
+    "vendor": 5,
+    "price": "40.00",
+    "category": "飲料",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 11,
+  "fields": {
+    "name": "胡椒餅",
+    "vendor": 6,
+    "price": "55.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 12,
+  "fields": {
+    "name": "蚵仔煎",
+    "vendor": 7,
+    "price": "70.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 13,
+  "fields": {
+    "name": "海鮮煎",
+    "vendor": 7,
+    "price": "80.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 14,
+  "fields": {
+    "name": "碳烤魷魚",
+    "vendor": 8,
+    "price": "100.00",
+    "category": "燒烤",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 15,
+  "fields": {
+    "name": "芒果冰",
+    "vendor": 9,
+    "price": "80.00",
+    "category": "甜點",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 16,
+  "fields": {
+    "name": "草莓冰",
+    "vendor": 9,
+    "price": "85.00",
+    "category": "甜點",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 17,
+  "fields": {
+    "name": "雞爪凍",
+    "vendor": 10,
+    "price": "45.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 18,
+  "fields": {
+    "name": "大腸包小腸",
+    "vendor": 11,
+    "price": "60.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 19,
+  "fields": {
+    "name": "麻辣滷味",
+    "vendor": 12,
+    "price": "50.00",
+    "category": "小吃",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 20,
+  "fields": {
+    "name": "奶茶",
+    "vendor": 13,
+    "price": "45.00",
+    "category": "飲料",
+    "is_available": true
+  }
+},
+{
+  "model": "nightmarket.food",
+  "pk": 21,
+  "fields": {
+    "name": "鹹酥雞",
+    "vendor": 14,
+    "price": "65.00",
+    "category": "小吃",
+    "is_available": true
+  }
+}
+]
